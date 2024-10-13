@@ -1,0 +1,12 @@
+k8s-docker-app/
+│
+├── app/                  # Application code
+│   └── app.js
+├── Dockerfile            # Dockerfile for containerizing the app
+├── deployment.yaml       # Kubernetes Deployment configuration
+├── service.yaml          # Kubernetes Service configuration
+├── configmap.yaml        # Kubernetes ConfigMap
+├── secret.yaml           # Kubernetes Secret
+├── ingress.yaml          # Kubernetes Ingress
+├── .github/
+│   └── workflows/
