@@ -1,0 +1,5 @@
+# Step 1: Build the Docker image for the application
+docker build -t <your-docker-username>/my-app:latest .
+
+# Step 2: Push the Docker image to Docker Hub or another registry
+docker push <your-docker-username>/my-app:latest
