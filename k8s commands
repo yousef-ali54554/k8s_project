@@ -1,0 +1,20 @@
+# Step 1: Start Minikube (or ensure your Kubernetes cluster is running)
+minikube start
+
+# Step 2: Apply the Deployment configuration
+kubectl apply -f deployment.yaml
+
+# Step 3: Apply the Service configuration
+kubectl apply -f service.yaml
+
+# Step 4: Apply the ConfigMap
+kubectl apply -f configmap.yaml
+
+# Step 5: Apply the Secret 
+kubectl apply -f secret.yaml
+
+# Step 6: Apply Ingress configuration to expose the app externally
+kubectl apply -f ingress.yaml
+
+# Check the status of your deployment
+kubectl get pods
